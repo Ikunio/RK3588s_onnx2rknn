@@ -1,0 +1,1 @@
+CLASSES = ("else waste","hazardous","kitchen","recyclable")
