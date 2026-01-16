@@ -1,12 +1,12 @@
 # RK3588S ONNX 转 RKNN 模型工具链配置指南
 ## 目前这个代码中只包含了PC端的模型转换
 ## 而rknn的板端推理可以去我主页里的rknn_ros2一起使用
-🚀 基于瑞芯微 RKNN 工具链的模型转换环境配置文档  
-📌 适用场景：学习记录 | 模型转换 | NPU 环境部署  
+ 基于瑞芯微 RKNN 工具链的模型转换环境配置文档  
+ 适用场景：学习记录 | 模型转换 | NPU 环境部署  
 
 ---
 
-## 🖥️ 硬件环境
+##  硬件环境
 
 | 设备类型   | 配置说明                                 |
 |------------|------------------------------------------|
@@ -15,14 +15,14 @@
 
 ---
 
-## 📋 目录
+##  目录
 
 1. [PC 端模型转换环境配置](#-pc-端模型转换环境配置)  
 2. [开发板推理环境配置](#-开发板环境配置)  
 
 ---
 
-## 🔧 PC 端模型转换环境配置
+##  PC 端模型转换环境配置
 
 ### 1. 安装 Python 基础环境
 
@@ -44,7 +44,7 @@ git clone https://github.com/airockchip/rknn-toolkit2 -b v1.5.2
 pip3 install -r rknn-toolkit2/doc/requirements_cp38-1.5.2.txt -i https://mirror.baidu.com/pypi/simple
 ```
 
-> 💡 若某些依赖无法安装，可手动逐个安装 requirements 文件中列出的包。
+>  若某些依赖无法安装，可手动逐个安装 requirements 文件中列出的包。
 
 ### 4. 安装 RKNN-Toolkit2 主包
 
@@ -54,7 +54,7 @@ pip3 install rknn-toolkit2/packages/rknn_toolkit2-1.5.2+b642f30c-cp38-cp38-linux
 
 ---
 
-## 🧪 ONNX 模型转换示例（YOLOv5）
+## ONNX 模型转换示例（YOLOv5）
 
 ### 1. 进入示例目录
 
@@ -76,7 +76,7 @@ python3 test.py
 
 ---
 
-## 🛠️ 开发板环境配置（OrangePi 5 Pro）
+##  开发板环境配置（OrangePi 5 Pro）
 
 ### 1. 获取运行时库 rknpu2
 
@@ -99,7 +99,7 @@ sudo restart_rknn.sh
 
 ---
 
-## ✅ 验证与测试
+##  验证与测试
 
 ### 检查 rknn_server 是否成功运行
 
