@@ -1,4 +1,4 @@
-# RK3588S ONNX 转 RKNN 模型工具链配置指南.test
+# RK3588S ONNX 转 RKNN 模型工具链配置指南.test.
 ## 目前这个代码中只包含了PC端的模型转换
 ## 而rknn的板端推理可以去我主页里的rknn_ros2一起使用
  基于瑞芯微 RKNN 工具链的模型转换环境配置文档  
